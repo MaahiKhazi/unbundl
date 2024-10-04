@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clovee - Advanced Dental Health</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .hero {
+            background-color: #f9f5f2;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            color: #4a4a4a;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+        }
+        .feature {
+            text-align: center;
+            width: 22%;
+        }
+        .doctors {
+            background-color: #f9f5f2;
+            padding: 50px 0;
+        }
+        .doctor-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .doctor-card {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .blog-section {
+            margin: 50px 0;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Advanced Dental Health Care</h1>
+            <p>Experience top-quality dental care with our expert team.</p>
+            <button>Book Appointment</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>24/7 Service</h3>
+                <p>Always available for your dental needs</p>
+            </div>
+            <div class="feature">
+                <h3>Expert Doctors</h3>
+                <p>Highly qualified and experienced professionals</p>
+            </div>
+            <div class="feature">
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art dental technology</p>
+            </div>
+            <div class="feature">
+                <h3>Affordable Prices</h3>
+                <p>Quality care at reasonable rates</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctors">
+        <div class="container">
+            <h2>Our Doctors</h2>
+            <div class="doctor-grid">
+                <!-- Repeat for each doctor -->
+                <div class="doctor-card">
+                    <img src="/api/placeholder/150/150" alt="Doctor's photo">
+                    <h3>Dr. John Doe</h3>
+                    <p>Orthodontist</p>
+                </div>
+                <!-- More doctor cards... -->
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <!-- Repeat for each blog post -->
+                <div class="blog-post">
+                    <img src="/api/placeholder/300/200" alt="Blog post image">
+                    <h3>Dental Care Tips</h3>
+                    <p>Learn how to maintain your oral health...</p>
+                </div>
+                <!-- More blog posts... -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Clovee Dental Health. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
